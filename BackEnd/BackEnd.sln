@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "BackEnd\BackEnd.csproj", "{67CD1F65-EA68-4B0D-81CB-FE65EBE4A94F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{EDBBAF28-FC5E-4545-AB72-C5773480A001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{67CD1F65-EA68-4B0D-81CB-FE65EBE4A94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67CD1F65-EA68-4B0D-81CB-FE65EBE4A94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67CD1F65-EA68-4B0D-81CB-FE65EBE4A94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBBAF28-FC5E-4545-AB72-C5773480A001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBBAF28-FC5E-4545-AB72-C5773480A001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBBAF28-FC5E-4545-AB72-C5773480A001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBBAF28-FC5E-4545-AB72-C5773480A001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
