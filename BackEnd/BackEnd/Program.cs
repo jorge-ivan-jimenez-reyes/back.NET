@@ -20,9 +20,9 @@ class Sale
     
     //nosotros podemos darle a un objeto un elemento desde su creacion a esto se le llama constructor
     //constructor tiene el mismo nombre a la clase con la que esta hecha 
-    public Sale(decimal total)
+    public Sale(decimal Total)
     {
-         Total = total;
+         total = Total;
     }
 
     public string GetInfo()
