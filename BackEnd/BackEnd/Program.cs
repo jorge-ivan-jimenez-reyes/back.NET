@@ -1,28 +1,32 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using System.Net;
 
-// como crear clases y objeto
-//s 
-
-//clase molde para la creacion de un objeto 
-//objeto atributos y propiedades
-
-
-//diferentes formas de crear objetos
-var sale = new Sale(15);
-//var azucar sintactica cualidad que tienen los lenguaje para hacerlo mas legible
+var sale = new SaleWithtax(12);
 var message = sale.GetInfo();
 Console.WriteLine(message);
+//clase heredada de sale
+class SaleWithtax : Sale
+{
+    public decimal Tax { get; set; }
+    public SaleWithtax(decimal total) : base(total)
+    {
+    }
+
+    public string GetInfowithTax()
+    {
+        return "el total es" + Total + "Impuesto es " + Tax;
+    }
+}
+
 
 class Sale
 {
-    //get y set para modificarla 
+    //get set para modificar y obtenerla
     public decimal Total { get; set; }
-    
-    //nosotros podemos darle a un objeto un elemento desde su creacion a esto se le llama constructor
-    //constructor tiene el mismo nombre a la clase con la que esta hecha 
-    public Sale(decimal Total)
+
+    public Sale(decimal total)
     {
-         total = Total;
+        Total = total;
     }
 
     public string GetInfo()
