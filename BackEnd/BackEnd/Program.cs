@@ -18,6 +18,12 @@ class SaleWithtax : Sale
     }
 }
 
+class Buy
+{
+    public decimal Price { get; set; }
+
+
+}
 
 class Sale
 {
