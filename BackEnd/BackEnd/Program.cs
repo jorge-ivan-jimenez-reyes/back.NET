@@ -18,12 +18,7 @@ class SaleWithtax : Sale
     }
 }
 
-class Buy
-{
-    public decimal Price { get; set; }
 
-
-}
 
 class Sale
 {
@@ -40,3 +35,9 @@ class Sale
         return "el total es " + Total;
     }
 }
+
+
+
+
+
+//
