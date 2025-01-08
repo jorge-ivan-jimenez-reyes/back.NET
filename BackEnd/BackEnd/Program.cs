@@ -36,6 +36,15 @@ class Sale
     }
 }
 
+class Buy
+{
+    public decimal Total { get; set; }
+
+    public Buy(decimal total)
+    {
+        Total = total;
+    }
+}
 
 
 
