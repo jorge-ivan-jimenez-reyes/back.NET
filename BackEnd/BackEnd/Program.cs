@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 //ionterfaz es dar reglas de esta manera pudes categoriazar tu clase
 interface ISale
 {
@@ -28,5 +32,8 @@ public class Sale : ISale, ISave
     }
 }
 
-
+public class Buyer : ISale
+{
+    public decimal Total { get; set; }
+}
  
