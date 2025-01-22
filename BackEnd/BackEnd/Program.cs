@@ -21,6 +21,10 @@ interface ISave
 
 }
 
+interface Buy
+{
+    public void Buy();
+}
 public class Sale : ISale, ISave
 {
     
