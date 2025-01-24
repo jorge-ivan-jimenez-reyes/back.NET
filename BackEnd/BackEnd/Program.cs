@@ -36,13 +36,3 @@ public class Sale : ISale, ISave
     }
 }
 
-public class Buyer : ISale
-{
-    public decimal Total { get; set; }
-}
-public class Buyer : ISale
-{
-    public decimal Total { get; set; }
-}
- 
- 
