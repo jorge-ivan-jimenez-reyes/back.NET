@@ -36,3 +36,12 @@ public class Sale : ISale, ISave
     }
 }
 
+public class Byer : ISale, ISave
+{
+    public decimal Total { get; set; }
+
+    public void Save()
+    {
+        Console.WriteLine("Sale Saved");
+    }
+}
