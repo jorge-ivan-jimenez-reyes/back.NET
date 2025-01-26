@@ -25,23 +25,3 @@ interface Buy
 {
     public void Buy();
 }
-public class Sale : ISale, ISave
-{
-    
-    public decimal Total { get; set; }
-
-    public void Save()
-    {
-        Console.WriteLine("Sale Saved");
-    }
-}
-
-public class Byer : ISale, ISave
-{
-    public decimal Total { get; set; }
-
-    public void Save()
-    {
-        Console.WriteLine("Sale Saved");
-    }
-}
