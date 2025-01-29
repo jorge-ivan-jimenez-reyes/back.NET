@@ -25,3 +25,11 @@ interface Buy
 {
     public void Buy();
 }
+
+public class Sale : ISale
+{
+    
+    public decimal Total { get; set; }
+    
+    void ISave.Save()
+}
